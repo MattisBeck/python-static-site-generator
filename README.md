@@ -13,7 +13,7 @@ First of all, my website is still fairly small and custom-built with only a few 
 For example, I could not directly use it on my [homelab pages](https://mattisbeck.com/homelab), because each page has its own layout and navigation. My generator currently only supports one shared template for all the pages.
 
 ## The final Demo website
-You can find a small demo website, which I built from just a few Markdown files [here](https://mattisbeck.com/static-site-generatorrr)
+You can find a small demo website, which I built from just a few Markdown files [here](https://mattisbeck.com/python-static-site-generator/)
 
 ## The Basic Structure
 Here is a quick peek at how things are set up:
@@ -26,4 +26,4 @@ Here is a quick peek at how things are set up:
 Want to try it yourself? Just run the program with the following commands:
 - `./test.sh` to run the test suite.
 - `./main.sh` to build the site normally (runs `python3 src/main.py`).
-- `./build.sh` to build the site with a specific base path `"/static-site-generatorrr/"`, for example, to deploy it on GitHub Pages.
+- `./build.sh` to build the site with the base path `"/python-static-site-generator/"` for deployment on GitHub Pages.
