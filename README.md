@@ -1,11 +1,11 @@
-# My own Static Site Generator
+# Python Static Site Generator
 
-I built my own static site generator! This started as a learning project after I discovered tools like [Hugo](https://github.com/gohugoio/hugo) and [Jekyll](https://github.com/jekyll/jekyll) and wanted to understand how they work by building a simpler version from scratch.
-Building this was a lot of fun, and I learned a ton about file handling in Python and how to structure a project.
+I built this static site generator from scratch in Python as part of Boot.dev's guided project. Boot.dev provided the project requirements and milestones, while I wrote the implementation and tests myself.
 
 ## Why I wanted to build this
-At first, I did not know about static site generators by name, but I wanted a faster way to expand my website because I found that writing HTML by hand is tedious.
-Once I learned that tools like Hugo already exist, I decided to build a simpler version myself so I could understand the underlying ideas better.
+Before starting the project, I did not know about static site generators by name or tools like [Hugo](https://github.com/gohugoio/hugo) and [Jekyll](https://github.com/jekyll/jekyll). I only knew that writing HTML pages by hand could become tedious. While working through the project, I learned how static site generators turn content into finished websites without repeating the same HTML structure.
+
+Building this was a lot of fun, and I learned a ton about Python, Markdown parsing, building HTML node structures, recursion, file processing, project structure, and testing the conversion pipeline.
 
 ## Why I didn't use my own static site generator for my website
 So... Why didn't I use this generator for my own website?
